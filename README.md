@@ -1,1 +1,0 @@
-# nickuraltsev.github.io
