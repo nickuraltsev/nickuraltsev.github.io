@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "react-bootstrap": "^0.30.0-rc.2",
+    "react-bootstrap": "^0.30.0",
     "classnames": "^2.2.5",
     "babel-polyfill": "^6.9.1"
   },
@@ -31,7 +31,8 @@
     "eslint-plugin-import": "^1.11.1",
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "babel-eslint": "^6.1.2",
-    "gh-pages": "^0.11.0"
+    "gh-pages": "^0.11.0",
+    "bootstrap-sass": "^3.3.7"
   },
   "scripts": {
     "start": "gatsby develop",

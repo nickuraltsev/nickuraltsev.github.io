@@ -1,7 +1,11 @@
 import React from 'react';
 import { config } from 'config';
 
-const BUILD_TIME = new Date().getTime();
+const buildTime = new Date().getTime();
+
+const cssLink = process.env.NODE_ENV === 'production' ?
+  <link rel="stylesheet" href={`/styles.css?t=${buildTime}`} /> :
+  null;
 
 const App = (props) =>
   <html lang="en">
@@ -9,11 +13,11 @@ const App = (props) =>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>{config.siteTitle}</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+      {cssLink}
     </head>
-    <body style={{ paddingTop: '70px' }}>
+    <body>
       <div id="react-mount" dangerouslySetInnerHTML={{ __html: props.body }} />
-      <script src={`/bundle.js?t=${BUILD_TIME}`}></script>
+      <script src={`/bundle.js?t=${buildTime}`}></script>
     </body>
   </html>;
 

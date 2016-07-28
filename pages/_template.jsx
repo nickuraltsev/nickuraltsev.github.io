@@ -2,6 +2,8 @@ import React from 'react';
 import { Navbar, Nav, NavItem, Grid, Row, Col } from 'react-bootstrap';
 import { config } from 'config';
 
+import '../assets/styles/main.scss';
+
 const Page = (props) =>
   <div>
     <Navbar inverse fixedTop>
