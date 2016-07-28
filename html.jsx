@@ -11,7 +11,7 @@ const App = (props) =>
       <title>{config.siteTitle}</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     </head>
-    <body>
+    <body style={{ paddingTop: '70px' }}>
       <div id="react-mount" dangerouslySetInnerHTML={{ __html: props.body }} />
       <script src={`/bundle.js?t=${BUILD_TIME}`}></script>
     </body>

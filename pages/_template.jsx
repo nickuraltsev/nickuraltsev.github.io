@@ -4,7 +4,7 @@ import { config } from 'config';
 
 const Page = (props) =>
   <div>
-    <Navbar inverse staticTop>
+    <Navbar inverse fixedTop>
       <Navbar.Header>
         <Navbar.Brand><a href="/">{config.siteTitle}</a></Navbar.Brand>
         <Navbar.Toggle />
