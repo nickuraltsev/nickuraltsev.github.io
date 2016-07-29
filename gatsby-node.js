@@ -6,6 +6,7 @@ exports.modifyWebpackConfig = function(config, stage) {
       precision: 8,
       includePaths: [
         path.join(__dirname, 'node_modules/bootstrap-sass/assets/stylesheets'),
+        path.join(__dirname, 'node_modules/bootswatch'),
       ],
     },
   });

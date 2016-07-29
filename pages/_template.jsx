@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, Grid, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { config } from 'config';
 
 import '../assets/styles/main.scss';
@@ -12,7 +12,7 @@ const Page = (props) =>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
-        <Nav>
+        <Nav activeHref={props.location.pathname}>
           <NavItem eventKey={1} href="/Resume/">Résumé</NavItem>
         </Nav>
         <Nav pullRight>
@@ -21,13 +21,9 @@ const Page = (props) =>
       </Navbar.Collapse>
     </Navbar>
 
-    <Grid className="content">
-      <Row>
-        <Col sm={12}>
-          {props.children}
-        </Col>
-      </Row>
-    </Grid>
+    <div className="content container">
+      {props.children}
+    </div>
 
     <footer>
       <div className="container">
