@@ -21,13 +21,21 @@ const Page = (props) =>
       </Navbar.Collapse>
     </Navbar>
 
-    <Grid>
+    <Grid className="content">
       <Row>
         <Col sm={12}>
           {props.children}
         </Col>
       </Row>
     </Grid>
+
+    <footer>
+      <div className="container">
+        <p className="text-muted">
+          © 2016 Nick Uraltsev
+        </p>
+      </div>
+    </footer>
   </div>;
 
 export default Page;
