@@ -68,6 +68,8 @@ I am a Software Engineer with more than 10 years of experience designing and dev
   </tbody>
 </table>
 
+<div class="page-break"></div>
+
 ## Open Source
 
 [@nickuraltsev](https://github.com/nickuraltsev) on GitHub
@@ -110,6 +112,8 @@ HostPilot is a web-based control panel that allows customers to manage their clo
 - Conducted code reviews to ensure code quality
 
 Technologies used included .NET, WCF, Enterprise Library, Unity Container, SQL Server, IIS.
+
+<div class="page-break"></div>
 
 ### Senior Software Engineer / Team Lead
 #### Scoros International

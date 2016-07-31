@@ -21,6 +21,7 @@
   "devDependencies": {
     "gatsby": "^0.12.1",
     "babel-core": "^6.11.4",
+    "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
     "babel-preset-react": "^6.11.1",
@@ -32,12 +33,16 @@
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "babel-eslint": "^6.1.2",
     "gh-pages": "^0.11.0",
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "html-pdf": "^2.0.1",
+    "markdown-it": "^7.0.0",
+    "lodash": "^4.14.1"
   },
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && npm run gen-resume-pdf",
     "deploy": "npm run build && gh-pages -d public -b master",
-    "lint": "eslint pages loaders --ext .js,.jsx"
+    "lint": "eslint pages loaders --ext .js,.jsx",
+    "gen-resume-pdf": "babel-node resume-pdf/generate.js"
   }
 }
