@@ -3,6 +3,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { config } from 'config';
 
 import '../assets/styles/main.scss';
+import 'font-awesome/scss/font-awesome.scss'
 
 const Page = (props) =>
   <div>

@@ -34,15 +34,16 @@
     "babel-eslint": "^6.1.2",
     "gh-pages": "^0.11.0",
     "bootstrap-sass": "^3.3.7",
+    "font-awesome": "^4.6.3",
     "html-pdf": "^2.0.1",
     "markdown-it": "^7.0.0",
     "lodash": "^4.14.1"
   },
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build && npm run gen-resume-pdf",
-    "deploy": "npm run build && gh-pages -d public -b master",
-    "lint": "eslint pages loaders --ext .js,.jsx",
+    "build": "gatsby build",
+    "deploy": "npm run build && gh-pages -d public -b master -a",
+    "lint": "eslint pages loaders resume-pdf --ext .js,.jsx",
     "gen-resume-pdf": "babel-node resume-pdf/generate.js"
   }
 }

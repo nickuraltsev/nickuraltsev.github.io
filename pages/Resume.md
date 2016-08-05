@@ -4,6 +4,12 @@
 
 San Francisco Bay Area | [nick.uraltsev@gmail.com](mailto:nick.uraltsev@gmail.com)
 
+<div class="download-resume">
+  <a href="Nick Uraltsev.pdf">
+    <i class="fa fa-download"></i> Download Résumé as PDF
+  </a>
+</div>
+
 ***
 
 ## Summary
