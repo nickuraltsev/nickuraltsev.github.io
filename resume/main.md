@@ -1,22 +1,8 @@
-# NICK URALTSEV
-
-#### Software Engineer
-
-San Francisco Bay Area | [nick.uraltsev@gmail.com](mailto:nick.uraltsev@gmail.com)
-
-<div class="download-resume">
-  <a href="Nick Uraltsev.pdf">
-    <i class="fa fa-download"></i> Download Résumé as PDF
-  </a>
-</div>
-
-***
-
 ## Summary
 
-I am a Software Engineer with more than 10 years of experience designing and developing complex software solutions using various technology stacks including Node/React/MySQL, .NET/SQL Server, and more. Passionate about building high-quality software with clean, readable, and maintainable code. Constantly learning and experimenting with new technologies.
+I am a Software Engineer with more than 10 years of experience designing and developing complex software solutions using various technology stacks including Node.js/React/MySQL, .NET/SQL Server, and more. Passionate about building high-quality software with clean, readable, and maintainable code. Constantly learning and experimenting with new technologies.
 
-*I'm currently most interested in projects involving React and Node.*
+I'm currently most interested in projects involving React and Node.js.
 
 ## Skills
 
@@ -24,7 +10,7 @@ I am a Software Engineer with more than 10 years of experience designing and dev
   <tbody>
     <tr>
       <td><strong>General</strong></td>
-      <td>RESTful APIs, Object Oriented Design, Concurrent Programming, Reactive Programming, Database Design, Test Driven Development</td>
+      <td>RESTful APIs, Object Oriented Programming, Functional Programming, Concurrent Programming, Reactive Programming, Database Design, Test Driven Development</td>
     </tr>
     <tr>
       <td><strong>Languages</strong></td>
@@ -36,7 +22,7 @@ I am a Software Engineer with more than 10 years of experience designing and dev
     </tr>
     <tr>
       <td rowspan="2"><strong>Back-end</strong></td>
-      <td>Node, Koa, Koa-Router, Sequelize, Joi</td>
+      <td>Node.js, Koa, Koa-Router, Sequelize, Joi</td>
     </tr>
     <tr>
       <td>.NET, ASP.NET Web API, WCF, Entity Framework, Enterprise Library, Unity Container, Topshelf</td>
@@ -47,9 +33,7 @@ I am a Software Engineer with more than 10 years of experience designing and dev
     </tr>
     <tr>
       <td><strong>Testing</strong></td>
-      <td>
-        Jasmine, Jest, Mocha, Should, Chai, Karma; MSTest, NUnit, Moq; Selenium
-      </td>
+      <td>Jasmine, Jest, Mocha, Should, Chai, Karma; MSTest, NUnit, Moq; Selenium</td>
     </tr>
     <tr>
       <td><strong>Tools</strong></td>
@@ -78,11 +62,9 @@ I am a Software Engineer with more than 10 years of experience designing and dev
 
 ## Open Source
 
-[@nickuraltsev](https://github.com/nickuraltsev) on GitHub
-
-- Collaborator on [axios](https://github.com/mzabriskie/axios), a Promise based HTTP client for the browser and Node. ~5k stars, 280k downloads per month.
-- Creator of [finity](https://github.com/nickuraltsev/finity), a finite state machine library for Node and the browser with a friendly configuration DSL.
-- Contributed to several Node and React related projects.
+- A core team member of [axios](https://github.com/mzabriskie/axios), a Promise based HTTP client for the browser and Node.js. (300k downloads per month.)
+- Creator of [finity](https://github.com/nickuraltsev/finity), a finite state machine library for Node.js and the browser with a friendly configuration DSL.
+- Contributed to several Node.js and React related projects.
 
 ## Employment
 
@@ -93,20 +75,20 @@ I am a Software Engineer with more than 10 years of experience designing and dev
 ##### [SecuriSync](https://www.intermedia.net/products/securisync)
 SecuriSync is an enterprise-class file sync, sharing, and backup service that works across a variety of devices.
 
-- Designed RESTful APIs that are used by SecuriSync client applications to interact with the back-end
 - Designed file synchronization algorithms
-- Designed and developed the first version of SecuriSync Desktop Application, a highly concurrent .NET application that synchronizes files between the local computer and the server in real-time
-- Designed and developed SecuriSync Control Panel, a React-based web application that allows customers to perform various administrative tasks, such as managing users, devices, and storage settings
-- Designed and led the development of a Node-based service that enables online document viewing
-- Designed and developed integrations between SecuriSync and various external systems including Billing System and Directory Service
-- Prototyped a React-based application that runs on Electron and provides a UI for the SecuriSync Synchronization Service
+- Designed RESTful APIs that are used by SecuriSync client applications to interact with the back-end
+- Designed and developed the first version of SecuriSync Desktop App, a highly concurrent .NET application that synchronizes files between the local computer and the server in real-time
+- Designed and developed SecuriSync Control Panel, a React-based web application that allows customers to perform various administrative tasks, such as managing users, devices, storage settings, and more
+- Designed and led the development of a Node.js/MySQL back-end system
+- Designed and developed an integration between SecuriSync and Active Directory
+- Prototyped a React-based application that runs on Electron and provides a UI to the SecuriSync file synchronization engine
 - Built and led a highly efficient team of 10 Software Engineers and 6 QA Engineers
 - Conducted design and code reviews to ensure architectural alignment and quality
-- Introduced new technologies into the team including Node, React, and Electron
+- Introduced new technologies into the team including Node.js, React, and Electron
 - Led the team in moving toward a microservices architecture
 - Worked closely with Product Management to define requirements, scope releases, and develop product roadmaps
 
-Technologies used included React, Redux, MobX, React-Router, Node, Koa, Koa-Router, Sequelize, Joi, PM2, MySQL, .NET, ASP.NET Web API, WebSocket, Thrift, SQL Server.
+Technologies used included React, Redux, MobX, React-Router, Node.js, Koa, Sequelize, MySQL, .NET, ASP.NET Web API, WebSocket, Thrift, SQL Server.
 
 ##### [HostPilot](https://www.intermedia.net/products/hostpilot-control-panel)
 HostPilot is a web-based control panel that allows customers to manage their cloud services.
@@ -117,7 +99,7 @@ HostPilot is a web-based control panel that allows customers to manage their clo
 - Provided leadership to a team of 3 Software Engineers
 - Conducted code reviews to ensure code quality
 
-Technologies used included .NET, WCF, Enterprise Library, Unity Container, SQL Server, IIS.
+Technologies used included .NET, WCF, Enterprise Library, Unity Container, SQL Server.
 
 <div class="page-break"></div>
 
@@ -135,10 +117,10 @@ Eluma was a personal productivity tool that allowed users to collect, organize, 
 - Mentored junior team members and conducted code reviews
 - Worked closely with stakeholders to define and prioritize requirements
 
-Technologies used included .NET, Web Forms, WCF, SQL Server, MSMQ, IIS, and Windows Services.
+Technologies used included .NET, Web Forms, WCF, SQL Server, MSMQ, and Windows Services.
 
 ##### Other Projects
-Prior to Eluma, I worked on a reporting system for a CDN provider. Technologies used included Java, JSP, Struts, Tomcat, Oracle Database.
+Prior to Eluma, I worked on a reporting system for a CDN provider. Technologies used included Java, JSP, Struts, Oracle Database.
 
 ## Education
 

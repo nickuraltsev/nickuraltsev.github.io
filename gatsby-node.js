@@ -12,8 +12,6 @@ exports.modifyWebpackConfig = function(config, stage) {
       precision: 8,
       includePaths: [
         path.join(nodeModulesPath, 'bootstrap-sass/assets/stylesheets'),
-        path.join(nodeModulesPath, 'bootswatch'),
-        // path.join(nodeModulesPath, 'font-awesome/scss'),
       ],
     },
   });

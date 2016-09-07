@@ -1,18 +1,21 @@
+// Container size
+$container-lg: 970px;
+
 // Typography (based on Bootswatch Readable theme)
 
 $font-size-base: 16px !default;
-$font-size-large: ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small: ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-large: ceil(($font-size-base * 1.25)) !default;
+$font-size-small: ceil(($font-size-base * 0.85)) !default;
 
-$font-size-h1: floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2: floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3: ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4: ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h1: floor(($font-size-base * 2.6)) !default;
+$font-size-h2: floor(($font-size-base * 2.15)) !default;
+$font-size-h3: ceil(($font-size-base * 1.7)) !default;
+$font-size-h4: ceil(($font-size-base * 1.25)) !default;
 $font-size-h5: $font-size-base !default;
-$font-size-h6: ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h6: ceil(($font-size-base * 0.85)) !default;
 
 $line-height-base: 1.428571429 !default; // 20/14
-$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default;
 $headings-line-height: 1.1 !default;
 
 // Colors (based on Bootswatch Yeti theme)
@@ -31,15 +34,18 @@ $brand-warning: #E99002 !default;
 $brand-danger: #F04124 !default;
 
 $body-bg: #fff !default;
-$text-color: $gray-darker !default;
+$text-color: $gray-dark !default;
 $link-color: $brand-primary !default;
 $link-hover-color: $link-color !default;
+
+$btn-default-color: #fff !default;
+$btn-default-bg: $gray !default;
+$btn-default-border: $gray !default;
 
 $navbar-default-color: #fff !default;
 $navbar-default-bg: $gray-dark !default;
 $navbar-default-border: darken($navbar-default-bg, 6.5%) !default;
 
-// Navbar links
 $navbar-default-link-color: #fff !default;
 $navbar-default-link-hover-color: #fff !default;
 $navbar-default-link-hover-bg: #272727 !default;
@@ -62,9 +68,9 @@ $navbar-inverse-border: darken($navbar-inverse-bg, 10%) !default;
 
 $navbar-inverse-link-color: #fff !default;
 $navbar-inverse-link-hover-color: #fff !default;
-$navbar-inverse-link-hover-bg: darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-link-hover-bg: lighten($navbar-inverse-bg, 10%) !default;
 $navbar-inverse-link-active-color: #fff !default;
-$navbar-inverse-link-active-bg: darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-link-active-bg: lighten($navbar-inverse-bg, 10%) !default;
 $navbar-inverse-link-disabled-color: #444 !default;
 $navbar-inverse-link-disabled-bg: transparent !default;
 
@@ -75,3 +81,12 @@ $navbar-inverse-brand-hover-bg: transparent !default;
 $navbar-inverse-toggle-hover-bg: transparent !default;
 $navbar-inverse-toggle-icon-bar-bg: #fff !default;
 $navbar-inverse-toggle-border-color: transparent !default;
+
+// Jumbotron (based on Bootswatch Yeti theme)
+
+$jumbotron-padding: 30px !default;
+$jumbotron-color: #fff !default;
+$jumbotron-bg: darken($brand-primary, 10%) !default;
+$jumbotron-heading-color: #fff !default;
+$jumbotron-font-size: ceil(($font-size-base * 1.2)) !default;
+$jumbotron-heading-font-size: ceil(($font-size-base * 3.2)) !default;

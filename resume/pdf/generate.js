@@ -15,9 +15,13 @@ const md = new MarkdownIt({
 });
 
 const css = readFile('styles.css');
-const content = md.render(readFile('../pages/Resume.md'));
+const heading = md.render(readFile('../heading.md'));
+const mainContent = md.render(readFile('../main.md'));
 const template = readFile('template.html');
-const html = _.template(template)({ css, content });
+const html = _.template(template)({
+  css,
+  content: heading + mainContent,
+});
 
 const config = {
   format: 'A4',
@@ -28,7 +32,7 @@ const config = {
 pdf
   .create(html, config)
   .toFile(
-    path.join(__dirname, '../public/Resume/Nick Uraltsev.pdf'),
+    path.join(__dirname, '../../public/Resume/Nick Uraltsev.pdf'),
     (err, res) => {
       if (err) {
         console.log(err);

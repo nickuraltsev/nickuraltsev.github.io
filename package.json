@@ -37,13 +37,14 @@
     "font-awesome": "^4.6.3",
     "html-pdf": "^2.0.1",
     "markdown-it": "^7.0.0",
-    "lodash": "^4.14.1"
+    "lodash": "^4.14.1",
+    "image-webpack-loader": "^2.0.0"
   },
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
     "deploy": "npm run build && gh-pages -d public -b master -a",
-    "lint": "eslint pages loaders resume-pdf --ext .js,.jsx",
-    "gen-resume-pdf": "babel-node resume-pdf/generate.js"
+    "lint": "eslint pages loaders resume/pdf --ext .js,.jsx",
+    "gen-resume-pdf": "babel-node resume/pdf/generate.js"
   }
 }

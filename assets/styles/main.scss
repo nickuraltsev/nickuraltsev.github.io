@@ -6,12 +6,21 @@ html {
 }
 
 body {
-  padding-top: 70px;
-  margin-bottom: 60px;
+  padding-top: 50px;
+  margin-bottom: 80px;
 }
 
-div.content {
-  padding-bottom: 20px;
+.header {
+  color: #fff;
+  background-color: darken($brand-primary, 10%);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 footer {
@@ -26,4 +35,18 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+}
+
+div.social-buttons {
+  text-align: right;
+}
+
+.btn.btn-social {
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+div.download-resume {
+  margin-top: 20px;
 }
