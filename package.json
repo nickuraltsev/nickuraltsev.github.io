@@ -42,6 +42,7 @@
   },
   "scripts": {
     "start": "gatsby develop",
+    "start-prod": "gatsby serve-build",
     "build": "gatsby build",
     "deploy": "npm run build && gh-pages -d public -b master -a",
     "lint": "eslint pages loaders resume/pdf --ext .js,.jsx",
