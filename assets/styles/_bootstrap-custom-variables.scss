@@ -3,6 +3,8 @@ $container-lg: 970px;
 
 // Typography (based on Bootswatch Readable theme)
 
+$font-family-sans-serif: "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, sans-serif !default;
+
 $font-size-base: 16px !default;
 $font-size-large: ceil(($font-size-base * 1.25)) !default;
 $font-size-small: ceil(($font-size-base * 0.85)) !default;
@@ -11,12 +13,14 @@ $font-size-h1: floor(($font-size-base * 2.6)) !default;
 $font-size-h2: floor(($font-size-base * 2.15)) !default;
 $font-size-h3: ceil(($font-size-base * 1.7)) !default;
 $font-size-h4: ceil(($font-size-base * 1.25)) !default;
-$font-size-h5: $font-size-base !default;
-$font-size-h6: ceil(($font-size-base * 0.85)) !default;
+$font-size-h5: ceil(($font-size-base * 1.1)) !default;
+$font-size-h6: $font-size-base !default;
 
 $line-height-base: 1.428571429 !default; // 20/14
 $line-height-computed: floor(($font-size-base * $line-height-base)) !default;
+$headings-font-weight: 500;
 $headings-line-height: 1.1 !default;
+
 
 // Colors (based on Bootswatch Yeti theme)
 
