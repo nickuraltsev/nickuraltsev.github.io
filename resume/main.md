@@ -6,7 +6,7 @@ I'm currently most interested in projects involving React and Node.js.
 
 ## Skills
 
-<table class="table">
+<table class="table skills">
   <tbody>
     <tr>
       <td><strong>General</strong></td>
@@ -48,7 +48,7 @@ I'm currently most interested in projects involving React and Node.js.
       <td>XML, HTML, CSS, SASS, Markdown</td>
     </tr>
     <tr>
-      <td><strong>Version Control</strong></td>
+      <td><strong>VCS</strong></td>
       <td>Git, TFS, SVN</td>
     </tr>
     <tr>
@@ -62,9 +62,13 @@ I'm currently most interested in projects involving React and Node.js.
 
 ## Open Source
 
-- A core team member of [axios](https://github.com/mzabriskie/axios), a Promise based HTTP client for the browser and Node.js. (300k downloads per month.)
-- Creator of [finity](https://github.com/nickuraltsev/finity), a finite state machine library for Node.js and the browser with a friendly configuration DSL.
-- Contributed to several Node.js and React related projects.
+Here are some of the open source projects I work on (please see my [GitHub page](https://github.com/nickuraltsev) for a full list).
+
+- [**axios**](https://github.com/mzabriskie/axios) (core team member) - Promise based HTTP client for the browser and Node.js. (300k downloads per month.)
+
+- [**finity**](https://github.com/nickuraltsev/finity) - Finite state machine library for Node.js and the browser with a friendly configuration DSL.
+
+- [**task-management**](https://github.com/nickuraltsev/task-management) - Task management application built using Node.js, React, MobX, Koa, Sequelize, and MySQL.
 
 ## Employment
 
@@ -124,7 +128,7 @@ Prior to Eluma, I worked on a reporting system for a CDN provider. Technologies 
 
 ## Education
 
-### Master of Science in Applied Mathematics
+#### Master of Science in Applied Mathematics
 Peter the Great St. Petersburg Polytechnic University — St. Petersburg, Russia
 
 ## Certifications
@@ -134,3 +138,7 @@ Peter the Great St. Petersburg Polytechnic University — St. Petersburg, Russia
 - MCTS: .NET Framework 4, Web Application
 - MCTS: .NET Framework 4, Data Access
 - MCTS: .NET Framework 4, Service Communication Applications
+
+## Recommendations
+
+Recommendations are available on my [LinkedIn page](https://www.linkedin.com/in/nickuraltsev).

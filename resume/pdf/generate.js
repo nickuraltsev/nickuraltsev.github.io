@@ -32,7 +32,7 @@ const config = {
 pdf
   .create(html, config)
   .toFile(
-    path.join(__dirname, '../../public/Resume/Nick Uraltsev.pdf'),
+    path.join(__dirname, '../../public/Resume/Nick_Uraltsev.pdf'),
     (err, res) => {
       if (err) {
         console.log(err);

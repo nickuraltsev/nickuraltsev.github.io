@@ -12,7 +12,7 @@ const ResumePage = () =>
     <div className="container">
       <div className="download-resume">
         <a
-          href="Nick Uraltsev.pdf">
+          href="Nick_Uraltsev.pdf">
           Download as PDF
         </a>
       </div>
