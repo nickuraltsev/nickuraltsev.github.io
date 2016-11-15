@@ -22,7 +22,7 @@ I'm currently most interested in projects involving React and Node.js.
     </tr>
     <tr>
       <td rowspan="2"><strong>Back-end</strong></td>
-      <td>Node.js, Koa, Koa-Router, Sequelize, Joi</td>
+      <td>Node.js, Koa, Koa-Router, Express, Sequelize, Joi</td>
     </tr>
     <tr>
       <td>.NET, ASP.NET Web API, WCF, Entity Framework, Enterprise Library, Unity Container, Topshelf</td>
@@ -72,9 +72,13 @@ Here are some of the open source projects I work on (please see my [GitHub page]
 
 ## Employment
 
+### Senior Software Engineer
+#### [ThinAir](https://www.thinair.com/)
+*November 2016 - Present*
+
 ### Senior Software Engineer / Team Lead
 #### [Intermedia.net](https://www.intermedia.net/)
-*November 2008 - Present*
+*November 2008 - November 2016*
 
 ##### [SecuriSync](https://www.intermedia.net/products/securisync)
 SecuriSync is an enterprise-class file sync, sharing, and backup service that works across a variety of devices.
@@ -94,6 +98,8 @@ SecuriSync is an enterprise-class file sync, sharing, and backup service that wo
 
 Technologies used included React, Redux, MobX, React-Router, Node.js, Koa, Sequelize, MySQL, .NET, ASP.NET Web API, WebSocket, Thrift, SQL Server.
 
+<div class="page-break"></div>
+
 ##### [HostPilot](https://www.intermedia.net/products/hostpilot-control-panel)
 HostPilot is a web-based control panel that allows customers to manage their cloud services.
 
@@ -104,8 +110,6 @@ HostPilot is a web-based control panel that allows customers to manage their clo
 - Conducted code reviews to ensure code quality
 
 Technologies used included .NET, WCF, Enterprise Library, Unity Container, SQL Server.
-
-<div class="page-break"></div>
 
 ### Senior Software Engineer / Team Lead
 #### Scoros International
