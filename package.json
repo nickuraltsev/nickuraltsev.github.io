@@ -1,8 +1,9 @@
 {
-  "name": "nickuraltsev.github.io",
+  "name": "nickuraltsev.com",
   "description": "Nick Uraltsev's Personal Website",
-  "version": "0.1.0",
-  "license": "MIT",
+  "version": "2.0.0",
+  "private": true,
+  "license": "UNLICENSED",
   "author": {
     "name": "Nick Uraltsev",
     "email": "nick.uraltsev@gmail.com"
@@ -11,41 +12,14 @@
     "type": "git",
     "url": "https://github.com/nickuraltsev/nickuraltsev.github.io"
   },
-  "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
-    "react-bootstrap": "^0.30.3",
-    "classnames": "^2.2.5",
-    "babel-polyfill": "^6.13.0"
-  },
   "devDependencies": {
-    "gatsby": "^0.12.5",
-    "babel-core": "^6.14.0",
-    "babel-cli": "^6.14.0",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "babel-preset-react": "^6.11.1",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "eslint": "^3.4.0",
-    "eslint-config-airbnb": "^10.0.1",
-    "eslint-plugin-react": "^6.2.0",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.2.1",
-    "babel-eslint": "^6.1.2",
-    "gh-pages": "^0.11.0",
-    "bootstrap-sass": "^3.3.7",
-    "font-awesome": "^4.6.3",
-    "html-pdf": "^2.1.0",
-    "markdown-it": "^7.0.1",
-    "lodash": "^4.15.0",
-    "image-webpack-loader": "^2.0.0"
+    "gh-pages": "^1.1.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-html": "^0.12.0",
+    "autoprefixer": "^7.2.5"
   },
   "scripts": {
-    "start": "gatsby develop",
-    "start-prod": "gatsby serve-build",
-    "build": "gatsby build",
-    "deploy": "npm run build && gh-pages -d public -b master -a",
-    "lint": "eslint pages loaders resume/pdf --ext .js,.jsx",
-    "gen-resume-pdf": "babel-node resume/pdf/generate.js"
+    "build": "postcss index.html -s postcss-html -u autoprefixer -d output --no-map",
+    "deploy": "npm run build && gh-pages -d public -b master"
   }
 }
