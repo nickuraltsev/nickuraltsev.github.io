@@ -19,7 +19,7 @@
     "autoprefixer": "^7.2.5"
   },
   "scripts": {
-    "build": "postcss index.html -s postcss-html -u autoprefixer -d output --no-map",
-    "deploy": "npm run build && gh-pages -d public -b master"
+    "build": "postcss index.html -s postcss-html -u autoprefixer -d output --no-map && cp CNAME output",
+    "deploy": "npm run build && gh-pages -d output -b master"
   }
 }
