@@ -1,0 +1,23 @@
+html {
+  zoom: 0.68; /* workaround for phantomJS bug https://github.com/ariya/phantomjs/issues/12685 */
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a[href]:after {
+  content : ""; /* https://github.com/alanshaw/markdown-pdf/issues/63 */
+}
+
+.page-break {
+  page-break-before: always;
+}

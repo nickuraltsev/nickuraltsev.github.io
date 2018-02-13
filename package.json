@@ -16,10 +16,12 @@
     "gh-pages": "^1.1.0",
     "postcss-cli": "^4.1.1",
     "postcss-html": "^0.12.0",
-    "autoprefixer": "^7.2.5"
+    "autoprefixer": "^7.2.5",
+    "markdown-pdf": "^8.1.1"
   },
   "scripts": {
     "build": "postcss index.html -s postcss-html -u autoprefixer -d output --no-map && cp CNAME output",
-    "deploy": "npm run build && gh-pages -d output -b master"
+    "deploy": "npm run build && gh-pages -d output -b master",
+    "gen-resume-pdf": "markdown-pdf -c resume -s resume/Resume.css resume/Resume.md"
   }
 }
