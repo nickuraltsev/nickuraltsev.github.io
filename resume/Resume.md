@@ -11,8 +11,11 @@ I am a Software Engineer with more than 12 years of experience designing and dev
 ## Skills
 
 **Languages**: JavaScript, Python, Scala, TypeScript, C#
+
 **Frameworks and APIs**: Node.js, Django, Sanic, React, Redux, .NET
+
 **Data**: PostgreSQL, MySQL, SQL Server, Kinesis, Elasticsearch, Redis
+
 **Other**: RESTful APIs, Reactive Systems, Stream Processing, Concurrent Programming
 
 ## Open Source
