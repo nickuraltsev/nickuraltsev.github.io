@@ -26,9 +26,11 @@ Here are some of the open source projects I work on (please see my [GitHub page]
 - [**finity**](https://github.com/nickuraltsev/finity) - Finite state machine library for Node.js and the browser with a friendly configuration DSL.
 
 ## Employment
+### Software Engineer at [Stripe](https://www.stripe.com/)
+*April 2018 - Present*
 
 ### Senior Software Engineer at [ThinAir](https://www.thinair.com/)
-*November 2016 - Present*
+*November 2016 - March 2018*
 
 ThinAir is an Endpoint Data Visibility technology that allows organizations to detect and investigate insider threats.
 
