@@ -15,11 +15,12 @@
   "devDependencies": {
     "autoprefixer": "^10.4.22",
     "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-html": "^1.8.0"
   },
   "scripts": {
-    "build": "postcss index.html --syntax postcss-html -u autoprefixer -d output --no-map && cp CNAME output",
+    "build": "postcss index.html -d output && cp CNAME output",
     "deploy": "npm run build && gh-pages -d output -b master"
   }
 }
